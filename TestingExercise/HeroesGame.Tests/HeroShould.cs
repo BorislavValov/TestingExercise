@@ -26,7 +26,7 @@ namespace HeroesGame.Tests
         [Test]
         public void HaveCorrectInitialValues()
         {
-            Assert.That(_hero.Object.Level, Is.EqualTo(HeroConstants.InitialLevel), "Level not expected");
+            Assert.That(_hero.Object.Level, Is.EqualTo(127983891), "Level not expected");
             Assert.That(_hero.Object.Experience, Is.EqualTo(HeroConstants.InitialExperience));
             Assert.That(_hero.Object.MaxHealth, Is.EqualTo(HeroConstants.InitialMaxHealth));
             Assert.That(_hero.Object.Health, Is.EqualTo(HeroConstants.InitialMaxHealth));
